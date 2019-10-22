@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZYepWksgVUedf4DB3Z4QXAAAAAACAAAAAAAQZgAAAAEAACAAAAC9FLQphLG6dMpFDK0rVu2mtzwTd2J+fUksIlR+DRL9dQAAAAAOgAAAAAIAACAAAACTDizXQwXMrNa0HIQlA9OMoQsxenx+Po21PYJFsyMp3YAAAAAr+6NVtCBUmZtQoIE3XJl2yev3i467+GencH13UJo14IPU4sHm4PFFjigjH164RjKFPXcgW4rkHgNnNPowRkSiS+J5o5mw6rS+wVAar80VqWulH/fWP4GBMBZEVudOXeZHupZ8zW4mvZhz+alcZPKa6+mmYIPKYih49Be2LzfHh0AAAAAlKU+9SNydzCC3RdlCLJdL5P3hwg/JPa/eOEhewqDn9o9ML3gZCmz14tZgC8L9t1EikK5QE/ML843I7MFss14q</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:lab2sangdbserver.database.windows.net,1433%3bInitial Catalog=lab2Sang_db%3bUser Id=lab2Sang%40lab2sangdbserver%3bPassword=Mohawk1!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="lab1b.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:lab2sangdbserver.database.windows.net,1433%3bInitial Catalog=lab2Sang_db%3bUser Id=lab2Sang%40lab2sangdbserver%3bPassword=Mohawk1!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
